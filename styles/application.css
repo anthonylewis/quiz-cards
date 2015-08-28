@@ -2,7 +2,6 @@
   background-image: url(../images/iphone-6-bg.svg);
   background-origin: padding-box;
   background-size: 370px 756px;
-  box-sizing: border-box;
   display: block;
   height: 758px;
   margin: 15px auto;
@@ -14,4 +13,38 @@
   background: white;
   height: 568px;
   width: 320px;
+}
+
+.title {
+  padding: 32px;
+  text-align: center;
+}
+
+.title h3 {
+  margin-top: 64px;
+}
+
+.title p {
+  margin-top: 32px;
+}
+
+.question {
+}
+
+.email {
+  padding: 32px;
+  text-align: center;
+}
+
+.email p {
+  margin-top: 32px;
+}
+
+.result {
+  padding: 32px;
+  text-align: center;
+}
+
+.result p {
+  margin-top: 32px;
 }

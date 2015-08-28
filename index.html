@@ -10,13 +10,32 @@
   <div class="container-fluid">
     <div class="row">
 
-      <div class="col-md-3">
-        <h2>Quiz Card</h2>
-      </div>
-
-      <div class="col-md-9">
+      <div class="col-md-12">
         <div class="iphone-bg">
-          <div class="card-content">
+          <div class="card-content" ng-controller="QuizController as quiz">
+
+            <div class="title" ng-show="quiz.state == 'title'">
+              <h3>What's Your Secret Alter Ego?</h3>
+              <p>Look deep inside yourself and get a little quirky with New Belgium’s Fat Tire Ale.</p>
+              <p><a href="" class="btn btn-primary" ng-click="quiz.state = 'email'">Start</a></p>
+            </div>
+
+            <div class="question" ng-show="quiz.state == 'question'">
+            </div>
+
+            <div class="email" ng-show="quiz.state == 'email'">
+              <p>Enter your email to see the result:</p>
+              <p><input type="email"></input></p>
+              <p><a href="" class="btn btn-primary" ng-click="quiz.state = 'result'">Submit</a></p>
+            </div>
+
+            <div class="result" ng-show="quiz.state == 'result'">
+              <h3>You got: Mega Goth</h3>
+              <p>The dark hair, clothes, nails, and other various accessories don’t fool anyone. Although you
+              may look like you live in the underworld, you’re truly sweet and super caring.</p>
+              <p><a href="" class="btn btn-primary" ng-click="quiz.state = 'title'">Play Again?</a></p>
+            </div>
+
           </div>
         </div>
       </div>
@@ -25,5 +44,6 @@
   </div>
 
   <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.16/angular.min.js"></script>
+  <script src="js/quizcards.js"></script>
 </body>
 </html>
