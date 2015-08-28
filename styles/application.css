@@ -21,12 +21,8 @@
   text-align: center;
 }
 
-.title h3 {
-  margin-top: 64px;
-}
-
 .title p {
-  margin-top: 32px;
+  margin: 32px 0 0 0;
 }
 
 .question {
@@ -38,7 +34,7 @@
 }
 
 .email p {
-  margin-top: 32px;
+  margin: 32px 0 0 0;
 }
 
 .result {
@@ -47,5 +43,9 @@
 }
 
 .result p {
-  margin-top: 32px;
+  margin: 32px 0 0 0;
+}
+
+.result img {
+  margin: 16px 0 0 0;
 }

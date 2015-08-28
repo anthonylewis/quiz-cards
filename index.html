@@ -24,17 +24,16 @@
             </div>
 
             <div class="email" ng-show="quiz.state == 'email'">
-              <p>Enter your email to see the result:</p>
+              <h3>Enter your email to see the result:</h3>
               <p><input type="email"></input></p>
-              <p><a href="" class="btn btn-primary" ng-click="quiz.state = 'result'">Submit</a></p>
+              <p><a href="" class="btn btn-primary" ng-click="quiz.getResult()">Submit</a></p>
             </div>
 
             <div class="result" ng-show="quiz.state == 'result'">
-              <h3>You got: Mega Goth</h3>
-              <p>The dark hair, clothes, nails, and other various accessories don’t fool anyone. Although you
-              may look like you live in the underworld, you’re truly sweet and super caring.</p>
+              <h3>You got: {{ quiz.results[quiz.result].title }}</h3>
+              <p>{{ quiz.results[quiz.result].desc }}</p>
               <p><a href="" class="btn btn-primary" ng-click="quiz.state = 'title'">Play Again?</a></p>
-              <p><img src="http://s3-ak.buzzfeed.com/static/2014-06/12/12/tmp/webdr04/733115ba061468eb7f5d8adf52fe396d-10.jpg" class="img-responsive"></p>
+              <img ng-src="{{ quiz.results[quiz.result].img }}" class="img-responsive">
             </div>
 
           </div>
