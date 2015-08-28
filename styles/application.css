@@ -12,6 +12,7 @@
 .card-content {
   background: white;
   height: 568px;
+  overflow: hidden;
   width: 320px;
 }
 
