@@ -1,0 +1,17 @@
+.iphone-bg {
+  background-image: url(../images/iphone-6-bg.svg);
+  background-origin: padding-box;
+  background-size: 370px 756px;
+  box-sizing: border-box;
+  display: block;
+  height: 758px;
+  margin: 15px auto;
+  padding: 94px 25px 90px 25px;
+  width: 370px;
+}
+
+.card-content {
+  background: white;
+  height: 568px;
+  width: 320px;
+}
