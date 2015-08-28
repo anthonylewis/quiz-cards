@@ -17,10 +17,20 @@
             <div class="title" ng-show="quiz.state == 'title'">
               <h3>What's Your Secret Alter Ego?</h3>
               <p>Look deep inside yourself and get a little quirky with New Belgium’s Fat Tire Ale.</p>
-              <p><a href="" class="btn btn-primary" ng-click="quiz.state = 'email'">Start</a></p>
+              <p><a href="" class="btn btn-primary" ng-click="quiz.state = 'question'">Start</a></p>
             </div>
 
             <div class="question" ng-show="quiz.state == 'question'">
+              <h3>{{ quiz.questions[0].title }}</h3>
+              <div class="row">
+                <div class="answer col-md-6" ng-repeat="answer in quiz.questions[0].answers" ng-click="quiz.getResult()">
+                  <div class="panel panel-default">
+                    <div class="panel-body">
+                      {{ answer }}
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
 
             <div class="email" ng-show="quiz.state == 'email'">

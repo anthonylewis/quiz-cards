@@ -26,6 +26,16 @@
 }
 
 .question {
+  padding: 32px;
+  text-align: center;
+}
+
+.question h3 {
+  margin-bottom: 32px;
+}
+
+.question .answer {
+  cursor: pointer;
 }
 
 .email {

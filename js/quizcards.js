@@ -9,14 +9,14 @@
 
     quiz.questions = [
       {
-        title: '',
+        title: 'What\'s your preferred mode of transportation?',
         answers: [
-          '',
-          '',
-          '',
-          '',
-          '',
-          ''
+          'Sailboat',
+          'Pedicab',
+          'Bicycle',
+          'Subway',
+          'Tightrope',
+          'Hoverboard'
         ],
       },
     ];
