@@ -42,7 +42,7 @@
             <div class="result" ng-show="quiz.state == 'result'">
               <h3>You got: {{ quiz.results[quiz.result].title }}</h3>
               <p>{{ quiz.results[quiz.result].desc }}</p>
-              <p><a href="" class="btn btn-primary" ng-click="quiz.state = 'title'">Play Again?</a></p>
+              <p><a href="" class="btn btn-primary" ng-click="quiz.tryAgain()">Play Again?</a></p>
               <img ng-src="{{ quiz.results[quiz.result].img }}" class="img-responsive">
             </div>
 

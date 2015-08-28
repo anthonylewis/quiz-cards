@@ -62,6 +62,12 @@
       }
     ];
 
+    quiz.tryAgain = function () {
+      quiz.state = 'title';
+      quiz.result = 0;
+      quiz.question = 0;
+    };
+
     quiz.getResult = function () {
       quiz.state = 'result'
       quiz.result = Math.floor(Math.random() * quiz.results.length);
