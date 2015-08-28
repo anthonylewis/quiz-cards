@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="382px" height="769px" viewBox="0 0 382 769" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.3.2 (12043) - http://www.bohemiancoding.com/sketch -->
+    <title>iphone-6-bg</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="3" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.056 0" in="shadowBlurOuter1" type="matrix" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="iphone-6-bg" sketch:type="MSArtboardGroup" stroke="#D7D9DB" fill="#EEF2F4">
+            <path d="M373.7666,222.499014 L374.500194,222.499014 C375.328514,222.499014 376,221.831201 376,221.001386 L376,168.005517 C376,167.1784 375.321589,166.50789 374.500194,166.50789 L373.7666,166.50789 L373.7666,55.9982852 C373.7666,28.3849948 351.382647,6 323.766898,6 L58.2331016,6 C30.6190291,6 8.2334004,28.3861212 8.2334004,55.9982852 L8.2334004,101.558185 L7.49980611,101.558185 C6.67148607,101.558185 6,102.225953 6,103.055216 L6,130.669636 C6,131.496423 6.6784109,132.166667 7.49980611,132.166667 L8.2334004,132.166667 L8.2334004,166.50789 L7.49980611,166.50789 C6.67148607,166.50789 6,167.175702 6,168.005517 L6,221.001386 C6,221.828503 6.6784109,222.499014 7.49980611,222.499014 L8.2334004,222.499014 L8.2334004,235.190335 L7.49980611,235.190335 C6.67148607,235.190335 6,235.858148 6,236.687963 L6,289.683832 C6,290.510949 6.6784109,291.18146 7.49980611,291.18146 L8.2334004,291.18146 L8.2334004,713.001715 C8.2334004,740.615005 30.6173527,763 58.2331016,763 L323.766898,763 C351.380971,763 373.7666,740.613879 373.7666,713.001715 L373.7666,222.499014 L373.7666,222.499014 Z M190.627767,739.857002 C206.251758,739.857002 218.917505,727.155841 218.917505,711.488166 C218.917505,695.82049 206.251758,683.119329 190.627767,683.119329 C175.003775,683.119329 162.338028,695.82049 162.338028,711.488166 C162.338028,727.155841 175.003775,739.857002 190.627767,739.857002 Z M190.627767,736.870809 C204.607127,736.870809 215.939638,725.506612 215.939638,711.488166 C215.939638,697.469719 204.607127,686.105523 190.627767,686.105523 C176.648406,686.105523 165.315895,697.469719 165.315895,711.488166 C165.315895,725.506612 176.648406,736.870809 190.627767,736.870809 Z" id="Apple-iPhone-6" filter="url(#filter-1)" sketch:type="MSShapeGroup"></path>
+            <path d="M191,34 C193.209139,34 195,32.209139 195,30 C195,27.790861 193.209139,26 191,26 C188.790861,26 187,27.790861 187,30 C187,32.209139 188.790861,34 191,34 Z" id="FaceTime-Came-2-Copy" sketch:type="MSShapeGroup"></path>
+            <ellipse id="FaceTime-Came-Copy" sketch:type="MSShapeGroup" cx="131.955734" cy="52.9723866" rx="5.95573441" ry="5.97238659"></ellipse>
+            <rect id="Rectangle-9" sketch:type="MSShapeGroup" x="160.5" y="48.4723866" width="61" height="8" rx="4"></rect>
+            <circle id="Oval-7" stroke-width="2" sketch:type="MSShapeGroup" cx="190.5" cy="711.5" r="28.5"></circle>
+        </g>
+    </g>
+</svg>
