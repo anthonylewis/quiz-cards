@@ -6,6 +6,7 @@
 
     quiz.state = 'title';
     quiz.result = 0;
+    quiz.question = 0;
 
     quiz.questions = [
       {
@@ -17,6 +18,28 @@
           'Subway',
           'Tightrope',
           'Hoverboard'
+        ],
+      },
+      {
+        title: 'Choose a beer to drink tonight',
+        answers: [
+          'Pale Ale',
+          'Wheat Beer',
+          'Dark Beer',
+          'Amber Ale',
+          'Double IPA',
+          'Oktoberfest'
+        ],
+      },
+      {
+        title: 'What accessory can you not leave the house without?',
+        answers: [
+          'Corkscrew',
+          'Phone',
+          'Sunglasses',
+          'Binoculars',
+          'Eye Patch',
+          'Beret'
         ],
       },
     ];
@@ -43,6 +66,13 @@
       quiz.state = 'result'
       quiz.result = Math.floor(Math.random() * quiz.results.length);
       console.log(quiz.result);
-    }
+    };
+
+    quiz.nextQuestion = function () {
+      quiz.question = quiz.question + 1;
+      if (quiz.question >= quiz.questions.length) {
+        quiz.state = 'email';
+      }
+    };
   });
 })();
