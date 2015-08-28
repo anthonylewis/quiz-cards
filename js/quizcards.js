@@ -59,6 +59,16 @@
         title: 'Steampunk',
         desc:  'You\'re the best of both worlds: old and new; wise, yet young; spirited, yet feeble. You appreciate tradition, but you love progress. You\'re very unique, a little quirky, and extremely lovable!',
         img: 'http://s3-ak.buzzfeed.com/static/2014-06/12/12/tmp/webdr06/db645c826bd8cd45bdc35571328a61d0-6.jpg'
+      },
+      {
+        title: 'Explorer',
+        desc:  'The open road is your home. Your friends are your family. A true vagabond who goes wherever the road leads. You know what truly matters is the thrill of feeling the wind in your hair as you speed from place to place.',
+        img: 'http://s3-ak.buzzfeed.com/static/2014-07/1/13/tmp/webdr05/1e3a41b2e5679afda66da41d923e28ad-25.jpg'
+      },
+      {
+        title: 'Circus Freak',
+        desc:  'You\'re a true weirdo, and you want EVERYONE to know it. You have an endless supply of hidden talents that will mesmerize your audience for years to come. Go forth and entertain the world with your many blessings in disguise.',
+        img:   'http://s3-ak.buzzfeed.com/static/2014-06/12/12/tmp/webdr06/6742ad7ed08a1e5cbf9cfbbdf3880d77-1.png'
       }
     ];
 
@@ -71,7 +81,6 @@
     quiz.getResult = function () {
       quiz.state = 'result'
       quiz.result = Math.floor(Math.random() * quiz.results.length);
-      console.log(quiz.result);
     };
 
     quiz.nextQuestion = function () {
